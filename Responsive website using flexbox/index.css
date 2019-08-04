@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first-main-column{
+    flex: 30%;
+    background-color: white;
+    margin: 10px;
+    border: 1px solid green;
+    
+}
+.main-second-column{
+
+
+    border: 2px solid green;
+    padding: 5px;
+}
+:root {
+  --light:#ffff;  
+    --dark:#181b24;
+     --grey:#899495;
+    --orange:#fc5130;
+}
+
+.first-header{
+    padding: 5px;
+    height: 100px;
+    width: 100%;
+    background-color: var(--grey);
+    color:var(--light)
+      
+}
+div p{
+    font-size: 20px;
+}
+
+.hero-section{
+    background: var(--orange);
+    height:250px;
+    width: auto;
+    color: var(--light);
+    position: relative;
+}
+
+
+.navbar{
+    background:black;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 0;
+  
+}
+
+.navbar a{
+    
+    text-decoration: none;
+    padding: 5px;
+    
+    color: var(--light);
+ 
+    
+}
+
+.navbar a:hover{
+color: green;
+}
+
+/*End of navbar*/
+
+.first-main-column{
+    display: 
+    
+}
+
+.my-first-image{
+    height: 200px;
+    width:100%;
+    background-color: blanchedalmond
+    
+}
+.my-first-image p{
+    font-size:25px;
+}
+
+.image1{
+    background-color: aquamarine;
+    height:60px;
+    width:100%;
+    
+}
+.image2{
+    background-color:darkgray;
+    height:60px;
+    width:100%;
+    
+}
+
+.image3{
+    background-color: aquamarine;
+    height:60px;
+    width:100%;
+    
+}
+
+
+/* Second column css
+*/
+
+.second-column-image1{
+    background-color: crimson;
+    height:300px;
+    width:100%;
+    
+}
+
+.second-column-image2{
+    background-color: darkgrey;
+    height: 200px;
+    width:100%;
+    
+}
+.navbar{
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {   
+    flex-direction: column;
+    text-align: right;
+  }
+}
+
+
+
+
+
